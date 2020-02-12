@@ -9,15 +9,20 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 </head>
 <body>
+    <!-- Start: Card that show current day's weather -->
     <div class="card p5">
-        <div class="image text-center p-3 display-1">
+        <!-- Weather Icon of current day -->
+        <div class="image text-center p-3 display-1"></div>
 
-        </div>
+        <!-- Start: Content on the card -->
         <div class="card-body text-center">
             <div>
+                <!-- Name of the city -->
                 <h2 id="city" class="card-title name"></h2>
+                <!-- Date -->
                 <small class="date">Today</small>
-                <p id="temp" class="card-text display-4"></p>
+                <!-- Temperature for the day -->
+                <p class="card-text display-4"><span id="temp"></span> °C</p>
             </div>
         </div>
 
@@ -46,7 +51,9 @@
                 </div>
             </div>
         </div>
+        <!-- End: Content on the card -->
     </div>
+    <!-- End -->
 
     <script src="js/weather.js"></script>
 </body>

@@ -6,6 +6,7 @@ async function getData() {
     const { name, weather, main, wind } = data;
     
     document.getElementById('city').textContent = name;
+    document.getElementById('temp').textContent = main.temp;
     document.getElementById('desc').textContent = weather.description;
     document.getElementById('hum').textContent = main.humidity;
     document.getElementById('pressure').textContent = main.pressure;
