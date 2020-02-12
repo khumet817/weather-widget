@@ -1,4 +1,4 @@
-const api_url= 'http://api.openweathermap.org/data/2.5/weather?lat=-33.9258&lon=18.4232&appid=8aafc8ce235d0b557c0e033195fe71f6&units=metric';
+const api_url= 'https://api.openweathermap.org/data/2.5/weather?lat=-33.9258&lon=18.4232&appid=8aafc8ce235d0b557c0e033195fe71f6&units=metric';
 
 async function getData() {
     const response = await fetch (api_url);
