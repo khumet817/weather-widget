@@ -1,0 +1,41 @@
+body {
+    margin: 0 auto;
+    background: url(../img/beautiful-table-mountain.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.desc {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.card {
+    display: none;
+    margin: 5rem auto;
+    width: 30rem;
+    padding-bottom: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* .temp {
+    cursor: pointer;
+} */
+
+ul li {
+    text-align: center;
+}
+
+/* Responsive Design */
+
+@media (max-width: 500px) {
+    .card {
+        width: 18rem;
+    }
+}
+
+@media (max-width: 325px) {
+    .card {
+        width: 16rem;
+    }
+}
